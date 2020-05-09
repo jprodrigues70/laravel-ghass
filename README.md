@@ -35,7 +35,7 @@ If you want to use Ghass to manage files larger than 1 megabyte, you will need t
 Gets the contents of a file in a repository. This method supports files up to 1 megabyte in size.
 
 ```
-$gass->file($path);
+$ghass->file($path);
 ```
 
 #### GET
@@ -43,7 +43,7 @@ $gass->file($path);
 Get the contents of a file in a repository. The content in the response will always be Base64 encoded.
 
 ```
-$gass->get($sha);
+$ghass->get($sha);
 ```
 
 #### POST
@@ -53,7 +53,7 @@ Creates a new file in a repository. It requires a Base64 encoded data.
 `$commitMessage` is optional.
 
 ```
-$gass->post($path, $data, $commitMessage);
+$ghass->post($path, $data, $commitMessage);
 ```
 
 #### PUT
@@ -65,7 +65,7 @@ PUT CAN'T RENAME FILES. If you want to rename a file, you will need to delete th
 `$commitMessage` is optional.
 
 ```
-$gass->put($path, $data, $sha, $commitMessage = '');
+$ghass->put($path, $data, $sha, $commitMessage = '');
 ```
 
 #### DELETE
@@ -75,5 +75,5 @@ Deletes a file in a repository.
 `$commitMessage` is optional.
 
 ```
-$gass->delete($path, $sah, $commitMessage = '');
+$ghass->delete($path, $sah, $commitMessage = '');
 ```
