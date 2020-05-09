@@ -1,5 +1,5 @@
 {
-  "name": "jprodrigues70/laravel-ghasserver",
+  "name": "jprodrigues70/laravel-ghass",
   "description": "Block bots and high traffic offenders using Redis",
   "authors": [
     {
@@ -11,7 +11,6 @@
     "illuminate/support": "^5.5",
     "php": "^7.0"
   },
-  "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
       "Ghass": "src"
