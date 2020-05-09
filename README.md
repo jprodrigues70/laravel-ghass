@@ -1,5 +1,5 @@
 <p align="center">
-  GHASS
+  # GHASS
   <p align="center">
     GHASS is a PHP GitHub API client that makes it easy to manage files in a GitHub repository (privated or public). 
   </p>
