@@ -5,18 +5,18 @@
   </p>
 </p>
 
+### Getting Started
+
+```
+composer require jprodrigues70/laravel-ghass
+```
+
 #### Configure your .env file
 
 ```
 GHASS_REPO=organization/project
 GHASS_TOKEN=yourgithubaccesstoken
 GHASS_BRANCH=master
-```
-
-### Getting Started
-
-```
-composer require jprodrigues70/laravel-ghass
 ```
 
 #### Usage
