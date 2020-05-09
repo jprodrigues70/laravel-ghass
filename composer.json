@@ -1,0 +1,21 @@
+{
+  "name": "jprodrigues70/laravel-ghasserver",
+  "description": "Block bots and high traffic offenders using Redis",
+  "authors": [
+    {
+      "name": "JP Rodrigues",
+      "email": "jprodrigues70@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "^5.5",
+    "php": "^7.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Ghass": "src"
+    }
+  },
+  "extra": {}
+}
