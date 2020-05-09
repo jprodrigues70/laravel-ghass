@@ -7,6 +7,7 @@
       "email": "jprodrigues70@gmail.com"
     }
   ],
+  "license": "MIT",
   "require": {
     "illuminate/support": "^5.5",
     "guzzlehttp/guzzle": "~6.0",
