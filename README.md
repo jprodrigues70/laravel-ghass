@@ -13,6 +13,12 @@ GHASS_TOKEN=yourgithubaccesstoken
 GHASS_BRANCH=master
 ```
 
+### Getting Started
+
+```
+composer require jprodrigues70/laravel-ghass
+```
+
 #### Usage
 
 ```php
