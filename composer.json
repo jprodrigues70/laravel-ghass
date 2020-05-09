@@ -1,6 +1,6 @@
 {
   "name": "jprodrigues70/laravel-ghass",
-  "description": "Block bots and high traffic offenders using Redis",
+  "description": "Use github as a file server",
   "authors": [
     {
       "name": "JP Rodrigues",
