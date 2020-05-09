@@ -16,5 +16,11 @@
       "Ghass\\": "src"
     }
   },
-  "extra": {}
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ghass\\Providers\\GhassProvider"
+      ]
+    }
+  }
 }
