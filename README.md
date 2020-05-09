@@ -40,7 +40,7 @@ $ghass->file($path);
 
 #### GET
 
-Get the contents of a file in a repository. The content in the response will always be Base64 encoded.
+Get the contents of a file in a repository. The content in the response will always be Base64 encoded. This method supports files up to 100 megabytes in size.
 
 ```
 $ghass->get($sha);
